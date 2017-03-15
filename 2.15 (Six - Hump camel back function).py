@@ -14,8 +14,7 @@ X = np.arange(-2, 2, 0.01)
 Y = np.arange(-2, 2, 0.01)
 X, Y = np.meshgrid(X, Y)
 #https://en.wikipedia.org/wiki/Rosenbrock_function
-Z = (-1) * ((1 + np.cos(12 * np.sqrt(X**2 + Y**2))) / ((0.5 * (X**2 + Y**2)) + 2))
-
+Z = (4 - (2.1 * X**2) + (X**4) / 3) * X**2 + (X * Y) + (-4 + (4 * Y**2)) * Y**2
 # Plot the surface.
 surf = ax.plot_surface(X, Y, Z, cmap=cm.gist_stern,
                        linewidth=0, antialiased=False)
