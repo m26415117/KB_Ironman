@@ -1,9 +1,9 @@
 Judul		: Artificial life dari Grey Wolf
 Deskripsi	: 
-		Terdapat beberapa ekor serigala dalam sekumpulan. Pada kumpulan serigala tersebut terdiri 		dari kelompok normal, dan kelompok yang kuat dari kumpulan itu. Kelompok normal selalu 	bergerombol sedangkan rombongan kuat mengelilingi mereka.
+		Terdapat beberapa ekor serigala dalam sekumpulan. Pada kumpulan serigala tersebut terdiri dari kelompok normal, dan kelompok yang kuat dari kumpulan itu. Kelompok normal selalu bergerombol sedangkan rombongan kuat mengelilingi mereka.
 Rules		:
 		- Semua wolf akan digenerate random
 		- Semua wolf normal akan selalu berkerumun
 		- Semua wolf kuat akan berada mengelilingi kawanan wolf normal
-		- Apabila terdapat ancaman, wolf kuat akan membuat barisan untuk memisahkan antara wolf 		normal dan ancaman tersebut
+		- Apabila terdapat ancaman, wolf kuat akan membuat barisan untuk memisahkan antara wolf normal dan ancaman tersebut
 		- Pada saat ada ancaman, wolf normal akan tetap berkerumun, tetapi berada dibelakang wolf kuat
